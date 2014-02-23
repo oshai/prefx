@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="prefx_version" type="id"/>
+    <item name="copyright" type="id" />
+    <item name="copyright_1" type="id" />
+    <item name="copyright_2" type="id" />
+    <item name="logo" type="id" />
+    <item name="welcome" type="id" />
+    <item name="list" type="id" />
+    <item name="item2" type="id" />
+    <item name="item3" type="id" />
+    <item name="footer" type="id" />
+    <item name="okBtn" type="id" />
+    <item name="policy" type="id" />
+</resources>

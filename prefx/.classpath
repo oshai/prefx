@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="libs/acra-4.2.3.jar" sourcepath="/external_no_runtime/acra-4.2.3/src/acra-4.2.3-sources.jar"/>
+	<classpathentry kind="lib" path="libs/guice-3.0-no_aop.jar" sourcepath="/external_no_runtime/guice-3.0-src/core/src"/>
+	<classpathentry kind="lib" path="libs/javax.inject.jar"/>
+	<classpathentry kind="lib" path="libs/libGoogleAnalytics.jar"/>
+	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="libs/libphonenumber-5.1.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

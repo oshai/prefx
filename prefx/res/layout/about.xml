@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" tools:ignore="NestedWeights">
+    <LinearLayout android:gravity="bottom|center" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="10.0">
+        <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:src="@drawable/prefx_icon" android:gravity="center_vertical|bottom" android:contentDescription="@string/about"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:background="@color/black" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="10.0">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:layout_weight="20.0">
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/copyright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name_full" />
+            <TextView android:text="@string/textViewAbout" android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@+id/textViewAbout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/prefx_version" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/copyright_grey" android:gravity="bottom|center" android:id="@id/copyright_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/splash_copyright" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/copyright_voice_grey" android:gravity="bottom|center" android:id="@id/copyright_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_copyright" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>
